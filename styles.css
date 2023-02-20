@@ -1,10 +1,11 @@
-.container{
+.holder{
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
+	flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.container div{
+.holder div{
     width: 200px;
     height: 200px;
     font-size: 100px;
