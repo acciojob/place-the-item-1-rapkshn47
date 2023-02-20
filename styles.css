@@ -1,2 +1,21 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
 
-/* Your CSS Code here. */
+.container div{
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+}
+
+.first{
+    background-color: green;
+}
+.second{
+    background-color: red;
+}
+.third{
+    background-color: blue;
+}
